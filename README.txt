@@ -1,4 +1,6 @@
-InterBook, a book purchase site.
+InterBook.
+
+This is a book purchase site.
 
 There are only logins and main site.
 
