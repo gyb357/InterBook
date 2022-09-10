@@ -1,0 +1,126 @@
+ /*First Setting*/
+html, body {
+    background: whitesmoke;
+    font-family: "Pretendard", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*animation*/
+@keyframes wellcome {
+    from {
+        font-size: 0%;
+    }
+}
+
+/*class*/
+.goto {
+    background-color: #EAEAEA;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    max-width: 100%;
+    color: darkgray;
+}
+.logo {
+    text-align: center;
+    margin: auto;
+    max-width: 250px;
+    position: relative;
+
+    right: 400px;
+    top: 25px;
+}
+.input {
+    font-family: "Pretendard", sans-serif;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+    flex-grow: 1;
+}
+.menu {
+    background: #5976b2;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+}
+
+/*sector*/
+nav {
+    text-align: right;
+    width: 20%;
+    max-width: 20%;
+    height: 90%;
+    float: left;
+}
+section {
+    text-align: center;
+    width: 60%;
+    max-width: 60%;
+    height: 90%;
+    float: left;
+}
+aside {
+    width: 20%;
+    max-width: 20%;
+    height: 90%;
+    float: left;
+}
+footer {
+    text-align: center;
+    font-size:15px;
+    color: darkgray;
+}
+
+/*href*/
+a {
+    color: darkgray;
+}
+a:hover {
+    color: black;
+}
+
+/*span*/
+span {
+    color: white;
+    padding: 2%;
+    font-size: 25px;
+}
+span:hover {
+    color: orange;
+}
+
+/*p*/
+botton {
+    font-family: "Pretendard", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+    max-width: 100px;
+    width: 150px;
+    height: 50px;
+
+    position: relative;
+}
+p:hover {
+    background: darkgray;
+}
+
+/*input*/
+input[type=text] {
+    font-family: "Pretendard", sans-serif;
+    border: 5px solid darkgray;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: -1px 0;
+    padding: 10px 150px;
+    flex-grow: 1;
+}

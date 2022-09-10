@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+
+    <title>InterBook-회원가입</title>
+
+    <style>
+        @import url(css/style_member.css);
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="goto">
+            <a href="#" style="text-decoration: none">로그인</a> |
+            <a href="member.html" style="text-decoration: none">회원가입</a> |
+            <a href="#" style="text-decoration: none">도움말</a>
+        </div>
+
+        <div class="logo">
+            <a href="main.html">
+                <img src="media/logo/logo_midium.png">
+            </a>
+        </div>
+
+        <hr>
+
+        <div class="wellcome">
+            <h1>환영합니다!</h1>
+            <h4 style="color: darkgray">회원가입으로 InterBook의 다양한 서비스를 이용해보세요.</h4>
+        </div>
+    </header>
+
+
+    <section>
+        <fieldset style="text-align: center;">
+            <legend>회원가입</legend>
+            <div class="content">
+                <h4>*필수입력정보입니다</h4>
+                <h3>ID/PW</h3>
+
+                <div class="input">
+                    <span class="div_txt">*아이디</span>
+                    <input type="text" placeholder="4~12자 이내 영문/숫자" maxlength="12">
+                    <input type="button" onclick="alert('사용 가능한 아이디입니다.')" value="중복체크">
+                </div>
+
+                <div class="input">
+                    <span class="div_txt">*비밀번호</span>
+                    <input type="password" placeholder="6~15자 이내 영문/숫자/특수문자" maxlength="15">
+                </div>
+
+                <div class="input">
+                    <span class="div_txt">*비밀번호확인</span>
+                    <input type="password" placeholder="비밀번호와 같게 입력" maxlength="15">
+                </div>
+
+                <h2>개인정보</h2>
+
+                <div class="input">
+                    <span class="div_txt">이름</span>
+                    <input type="text" placeholder="예: 홍길동">
+                </div>
+
+                <div class="input">
+                    <span class="div_txt">이메일</span>
+                    <input type="text" placeholder="">
+                    @
+                    <select>
+                        <option value="1">naver.com</option>
+                        <option value="2">facebook.com</option>
+                        <option value="3">kakao.com</option>
+                        <option value="4">google.com</option>
+                        <option value="5">apple.com</option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span class="div_txt">전화번호</span>
+                    <input type="tel" placeholder="010-1234-5678">
+                </div>
+
+                <div class="input">
+                    <span class="div_txt">생일</span>
+                    <input type="date">
+                </div>
+
+                <h2>선택사항</h2>
+                <h5>관심분야로 AI가 도서검색을 도와줍니다!</h5>
+
+                <div class="input">
+                    <span class="div_txt">색상</span>
+                    <input type="color">
+                </div>
+
+                <div class="input">
+                    <span>인문학</span> <input type="checkbox" value="1">
+                    <span>교육</span> <input type="checkbox" value="2">
+                    <span>예술</span> <input type="checkbox" value="3">
+                    <span>컴퓨터</span> <input type="checkbox" value="4">
+                    <span>기타분야</span> <input type="checkbox" value="5">
+                </div>
+
+                <div class="input">
+                    <span class="div_txt">자기소개</span>
+                    <textarea cols="51" rows="5"></textarea>
+
+                </div>
+                <br>
+
+                <div class="div_button">
+                    <a href="main.html">
+                        <input type="submit" onclick="alert('회원가입 하시겠습니까?')" value="회원가입">
+                    </a>
+                    <a href="main.html">
+                        <input type="reset" onclick="alert('작성하신 내용은 저장되지 않습니다. 취소하시겠습니까?')" value="취소">
+                    </a>
+                </div>
+            </div>
+        </fieldset>
+    </section>
+
+
+    <br>
+
+
+    <footer>
+        <div class="log">
+            <a href="https://nid.naver.com/nidlogin.login"><img src="media/login/naver.png" width="300"></a>
+            <a href="https://ko-kr.facebook.com/"><img src="media/login/facebook.png" width="300"></a>
+            <br>
+
+            <a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fproxy%3DeasyXDM_Kakao_dmvqt6xq45l_provider%26ka%3Dsdk%252F1.41.5%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko-KR%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fwww.epis.or.kr%26origin%3Dhttps%253A%252F%252Fwww.epis.or.kr%26response_type%3Dcode%26redirect_uri%3Dkakaojs%26state%3Dyidxa4nl36yj68uf2js4g%26client_id%3D950f3ae1f2f550e5ba7ff7d9fffc7781&talk_login=hidden"><img src="media/login/kakao.png" width="300"></a>
+            <a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="media/login/google.png" width="300"></a>
+            <br>
+            <a href="https://secure5.store.apple.com/kr/shop/signIn?ssi=1AAABgFGhQm0gZL948BMRG5MxChdDQtvdvDvW338oX4GQ4ZC5i8WV-K8AAAA-aHR0cHM6Ly93d3cuYXBwbGUuY29tL2tyL3N0b3JlfGh0dHBzOi8vd3d3LmFwcGxlLmNvbS9rci9zdG9yZXwAAgGLv5d8batd2B_Uzy99Zs3gNZMhHaFG7gMZ8BeJF8SDRA"><img src="media/login/apple.png" width="300"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+ /*first Setting*/
+html, body {
+    background: whitesmoke;
+    font-family: "Pretendard", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*animation*/
+@keyframes wellcome {
+    from {
+        font-size: 0%;
+    }
+}
+
+ /*class*/
+.goto {
+    background-color: #EAEAEA;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    max-width: 100%;
+    color: darkgray;
+}
+.logo {
+    text-align: center;
+    margin: 0px;
+}
+.wellcome {
+    text-align: center;
+    animation-name: wellcome;
+    animation-duration: 0.5s;
+}
+.log {
+    text-align: center;
+}
+.content {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+.input {
+    color: darkgray;
+    width: 120%;
+    display: flex;
+    margin-top: 5px;
+}
+.div_txt {
+    width: 20%;
+}
+.div_button {
+    text-align: center;
+}
+
+/*href*/
+a {
+    color: darkgray;
+}
+a:hover {
+    color: black;
+}
+
+/*h*/
+h2 {
+    font-size: large;
+}
+h4 {
+    color: red;
+}
+h5 {
+    margin: 0;
+    color: darkgray;
+    font-size: 15px;
+}
+
+/*input*/
+input[type=text], input[type=password], input[type=tel], input[type=date], input[type=submit], input[type=reset], input[type=button] {
+    font-family: "Pretendard", sans-serif;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: -1px 0;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+/*select*/
+select {
+    border-radius: 5px;
+    width: 105px;
+    height: 40px;
+}
