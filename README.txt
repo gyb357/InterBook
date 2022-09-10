@@ -1,5 +1,5 @@
-InterBook, a Book purchase site.
+InterBook, a book purchase site.
 
 There are only logins and main site.
 
-University HTML5 project)
+(University HTML5 project)
